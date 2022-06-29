@@ -9,7 +9,7 @@ var navBar = `
                 <a href="indeX.html"><button class="menuButton">Home page</button></a>
             </td>
 			<td>
-				<a href="release_logs.html"><button class="menuButton">Release Logs</button></a>
+				<a href="release_logS.html"><button class="menuButton">Release Logs</button></a>
 			</td>
             <td>
                 <a href="downloadS.html"><button class="menuButton">Downloads</button></a>
