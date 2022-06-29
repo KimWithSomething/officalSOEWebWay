@@ -1,0 +1,176 @@
+/* VARIABLES */
+
+:root {
+    --font: Arial, sans-serif;
+    --menuButton_colour: #888;
+    --downloadButtonColour: rgb(0, 140, 0);
+    --linkColour: rgb(255, 255, 255);
+    --darkTextColour: rgb(255, 255, 255);
+    --normalTextColour: rgb(0, 0, 0);
+    --backgroundColour: rgb(255, 255, 255);
+    --divColour: rgb(0, 0, 0);
+    --menuColour: rgb(6, 4, 122);
+    font-size: larger;
+}
+.Contributors{
+	text-align: center;
+}
+.loginbox{
+	width: 420px;
+	height:	160px;
+	background: #808080;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,50%);
+	box-sizing: border-box;
+	padding: px 30px;
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+
+}
+p {
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+body {
+    margin: 0;
+    background-color: var(--backgroundColour);
+    color: black;
+    font-family: var(--font);
+    color: var(--normalTextColour);
+}
+
+a {
+	text-align: center;
+    color: var(--normalTextColour);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+a:hover {
+    color: var(--normalTextColour);
+}
+
+a:visited {
+    color: var(--normalTextColour);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+a:visited:hover {
+    color: var(--normalTextColour);
+}
+
+canvas {
+    display: block;
+}
+
+.mainBody {
+    position: relative;
+    top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.mHeader {
+    text-align: center;
+}
+
+.menuButton {
+    color: var(--darkTextColour);
+    margin: 0;
+    top: 50%;
+    left: 10px;
+}
+
+button {
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    border: none;
+    border-radius: 4px;
+    background-color: var(--menuColour);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+.credits {
+    position:fixed;
+    top:100%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    font-size: small;
+}
+
+.normalFont {
+    font-family: var(--font);
+}
+
+.menuBar {
+    /* position: absolute; */
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 40px;
+    height:auto;
+    background-color: var(--menuColour);
+    z-index: 10000;
+}
+
+.downloadButton {
+    background-color: var(--downloadButtonColour);
+    padding: 10px;
+    width: 25%;
+}
+
+.innerBody {
+    display: table;
+    margin: 0 auto;
+    width:auto;
+    height:auto;
+}
+
+.downloadMenuImg {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    width: 75%;
+}
+
+.downloadMenuImg:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4), 0 12px 40px 0 rgba(0,0,0,0.4);
+}
+@media (min-width: 700px) {
+
+    .downloadMenuImg {
+        width: 25%;
+    }
+
+}
